@@ -1,0 +1,46 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# Production builds & artifacts
+/.next/
+/out/
+/build/
+/dist/
+.netlify/
+
+# Testing & Cache
+/coverage
+/.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+*.tsbuildinfo
+next-env.d.ts
+
+# Virtual Environments
+venv/
+.venv/
+env/
+backend/venv/
+
+# Secrets & Environment Variables (Strict Leakage Prevention)
+.env*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*

@@ -1,0 +1,15 @@
+.env
+.env.*
+*.env
+__pycache__/
+*.pyc
+*.pyo
+model_weights/
+chroma_db/
+mlflow_artifacts/
+*.dicom
+*.dcm
+reports/output/
+*.log
+.DS_Store
+node_modules/
